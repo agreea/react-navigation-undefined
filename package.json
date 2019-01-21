@@ -1,0 +1,53 @@
+{
+  "name": "numi-transact-rn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "node ./android-release-gradle-fix.js",
+    "start": "react-native run-android --port 8081 --config $(pwd)/rn-cli.config.js"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-navigation": "3.0.9",
+    "tslib": "^1.9.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.2.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/enzyme": "^3.1.9",
+    "@types/fbemitter": "^2.0.32",
+    "@types/jest": "^22.2.2",
+    "@types/react": "^16.0.40",
+    "@types/react-native": "^0.52.16",
+    "@types/react-navigation": "3.0.1",
+    "@types/react-test-renderer": "^16.0.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-module-resolver": "^3.1.0",
+    "metro-react-native-babel-preset": "^0.45.0",
+    "react-devtools": "^3.1.0",
+    "react-dom": "^16.3.0",
+    "react-native-dotenv": "^0.1.1",
+    "react-native-scripts": "^1.13.1",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.6.3",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.7.2",
+    "typescript-babel-jest": "^1.0.5"
+  }
+}

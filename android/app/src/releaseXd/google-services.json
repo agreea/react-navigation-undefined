@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "304816471649",
+    "firebase_url": "https://numi-20494.firebaseio.com",
+    "project_id": "numi-20494",
+    "storage_bucket": "numi-20494.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304816471649:android:c558c876543a6133",
+        "android_client_info": {
+          "package_name": "com.numi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id":
+          "304816471649-qgnflvps5i69lk0u8evf7gjevqot2e5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXZruNCytA8Z6b3126RFk2dWa2FnZyKDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304816471649:android:aa43fa5480169ab9",
+        "android_client_info": {
+          "package_name": "com.numi.xd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id":
+          "304816471649-qgnflvps5i69lk0u8evf7gjevqot2e5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXZruNCytA8Z6b3126RFk2dWa2FnZyKDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
